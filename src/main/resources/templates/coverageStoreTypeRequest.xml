@@ -1,0 +1,10 @@
+<coverageStore>         
+	<name>%s</name>
+	<description>%s</description>
+	<type>GeoTIFF</type>
+	<enabled>true</enabled>
+	<workspace>
+		<name>%s</name>
+	</workspace>
+	<url>file:%s</url>
+</coverageStore>

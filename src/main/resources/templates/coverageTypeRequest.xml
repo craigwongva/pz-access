@@ -1,0 +1,53 @@
+<coverage>
+
+	<name>%s</name>
+	<nativeName>%s</nativeName>
+
+	<namespace>
+		<name>%s</name>
+	</namespace>
+
+	<title>%s</title>
+	<description>%s</description>
+
+	<keywords>
+		<string>WCS</string>
+		<string>GeoTIFF</string>
+		<string>elevation</string>
+	</keywords>
+
+	<nativeCRS class="projected">
+		%s
+	</nativeCRS>
+
+	<srs>EPSG:%s</srs>
+
+	<nativeBoundingBox>
+		<minx>%s</minx>
+		<maxx>%s</maxx>
+		<miny>%s</miny>
+		<maxy>%s</maxy>
+		<crs class="projected">EPSG:%s</crs>
+	</nativeBoundingBox>
+
+	<projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
+
+	<enabled>true</enabled>
+
+	<store class="coverageStore">
+		<name>%s:%s</name>
+	</store>
+
+	<nativeFormat>GeoTIFF</nativeFormat>
+
+	<defaultInterpolationMethod>nearest neighbor</defaultInterpolationMethod>
+
+	<requestSRS>
+		<string>EPSG:%s</string>
+	</requestSRS>
+
+	<responseSRS>
+		<string>EPSG:%s</string>
+	</responseSRS>
+
+</coverage>

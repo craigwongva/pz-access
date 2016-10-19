@@ -1,0 +1,16 @@
+applications:
+- name: pz-access
+  host: pz-access
+  path: pz-access.jar
+  buildpack: java_buildpack_offline
+  memory: 2048M
+  instances: 1
+  timeout: 80
+  services:
+    - pz-kafka
+    - pz-blobstore
+    - pz-geoserver-efs
+    - pz-mongodb
+  env:
+    SPRING_PROFILES_ACTIVE: cloud
+    JBP_CONFIG_OPEN_JDK_JRE: '{ memory_calculator : { memory_sizes : { heap : 1536m } } }'

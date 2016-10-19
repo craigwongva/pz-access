@@ -1,0 +1,18 @@
+<featureType>
+	<name>%s</name>
+	<nativeName>%s</nativeName>
+	<title>%s</title>
+	<keywords>
+		<string>piazza</string>
+	</keywords>
+	<nativeCRS>%s</nativeCRS>
+	<srs>%s</srs>
+
+	<projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
+	<enabled>true</enabled>
+	<maxFeatures>0</maxFeatures>
+	<numDecimals>0</numDecimals>
+	<overridingServiceSRS>false</overridingServiceSRS>
+	<skipNumberMatched>false</skipNumberMatched>
+	<circularArcPresent>false</circularArcPresent>
+</featureType>
